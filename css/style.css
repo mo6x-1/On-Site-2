@@ -1,0 +1,477 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Oswald", sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+                    /* nav bar  */
+.sec nav {
+    width: 100%;
+    height: auto;
+    background-color: #2c3e50;
+    
+}
+.sec nav ul {
+    list-style: none;
+    padding: 10px 20px;
+    margin: 0;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+.sec nav li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    transition: all 0.5s ease;
+}
+.sec nav li a:hover {
+    background-color: #34495e;
+    border-radius: 5px;
+}
+.sec nav img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+             /* section 1 */
+
+.sec1 {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("images/home_bg.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+ .sec1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    
+}
+
+    
+    
+
+.sec *{
+    z-index:10000
+}
+.sec2{
+height: 100vh;
+}
+
+.sec1 h1 {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 2.4rem;
+    
+}
+.sec1 h1 span {
+    color: #EAC981;
+}
+.sec1 p {
+    color: rgba(255,255,255,0.9);
+    text-align: center;
+    margin-top: 10px;
+
+}
+.sec1 a {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 10px 18px;
+    background: #EAC981;
+    color: #2c3e50;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+.sec1 a:hover {
+    background: rgba(0, 0, 0, 0.40) ;
+    
+}
+
+
+
+
+
+       /* section2 */
+
+.sec2 {
+    width: 100%;
+    min-height: 100vh;
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.sec2 h1 {
+    color: gray;
+    text-align: center;
+    margin: 0;
+    font-size: 2.4rem;
+    
+}
+.sec2 p {
+    color: gray;
+    text-align: center; 
+    margin: 10px 0; 
+
+}
+
+.sec2 a {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 10px 18px;
+    background: #EAC981;
+    color: #2c3e50;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+
+
+
+.sec2 a:hover {
+    background: rgba(0, 0, 0, 0.40);
+}
+
+                /* section3 */
+.offer-section {
+    background-image: url(../images/offer-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    padding-bottom: 50px ;
+}
+.offer-section .textt {
+    text-align: center;
+    padding-top:50px ;
+    margin-bottom: 50px ;
+}
+.offer-section .textt h1 {
+    color: goldenrod;
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.offer-section .textt p {
+    color: white;
+}
+
+
+
+.offer-section .offers {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+.offer-section .offers .offer {
+    margin: 0 50px;
+    text-align: center;
+}
+.offer-section .offers .offer h2 {
+    margin: 20px 0;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+}
+
+.offer-section .offers .offer p {
+    color: white;
+    font-family:Arial, sans-serif;
+    margin-bottom:10px;
+}
+
+.offer-section .offers .offer del {
+    color: white;
+}
+.offer-section .offers .offer span {
+    color: goldenrod;
+    font-size: 18px;
+    padding:5px;
+}
+                /* section 4 */
+
+.text-menu {
+    text-align: center;
+    font-family:Arial, sans-serif;
+    margin-top: 50px ;
+    margin-bottom: 100px;
+}
+.text-menu h1 {
+color: black;
+padding: 10px;
+font-size: 40px;
+}
+.text-menu p {
+    color: rgba(128, 128, 128, 0.632);
+
+}
+
+
+.menu .order-parent {
+    display: flex;
+    margin: 0  80px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Arial, sans-serif;
+
+}
+.-menu {
+    position: relative;
+}
+.menu a {
+    text-decoration: none;
+   position: absolute;
+   left: 40%;
+    margin: 50px;
+    padding: 15px 20px;
+    background-color: goldenrod;
+    border-radius: 20px;
+    color: white;
+    transition: all 0.3s ease;
+    font-family:Arial, sans-serif;
+}
+
+.menu a:hover {
+    background-color: white;
+    color: goldenrod;
+    border: 2px solid goldenrod;
+}
+.menu .order-parent .order-small {
+    display: flex;
+}
+
+
+.menu .order-parent .order-small .order-img {
+    padding: 10px;
+
+}
+.menu .order-parent .order-small .order-text {
+    margin-left: 10px;
+}
+.menu .order-parent .order-small .order-text .text-small  {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.425);
+    padding-bottom: 10px;
+}
+
+.menu .order-parent .order-small .order-text .text-small span {
+    color: goldenrod;
+    font-size: 25px;
+}
+.menu .order-parent .order-small .order-text p {
+    width: 80%;
+    margin: 10px;
+}
+
+
+
+
+
+/* sec 5 */
+
+.icons {
+    background-image: url(../images/daytime_bg.jpeg);
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 20px;
+}
+
+
+.icons .icon {
+    margin: 0 40px;
+    text-align: center;
+}
+
+
+
+
+/* sec6 */
+
+
+
+.gellary {
+    background-image:url(../images/offer-background.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0 200px;
+}
+
+.gellary h2 {
+    text-align: center;
+    padding: 50px;
+    font-size: 50px;
+    font-family :Arial, sans-serif;
+    color: white;
+}
+
+
+.gellary .imges {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.gellary .imges img {
+    margin: 20px;
+    width: 280px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 2px rgb(122, 120, 120);
+    transition: all 0.3s ease;
+}
+
+.gellary .imges img:hover {
+    transform: translateY(-5px);
+ 
+}
+
+
+/* sec7 */
+
+.follow {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 50px;
+}
+
+.follow .follow-us .addres {
+   margin: 20px;
+   font-family:Arial, sans-serif;
+
+}
+.follow .follow-us .addres h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: black;
+}
+
+.follow .follow-us .addres span {
+    display: block;
+    margin: 2px 0;
+    color: gray;
+    font-size: 18px;
+    font-size: 16px;
+}
+.follow .follow-us .addres i {
+    color: rgba(218, 165, 32, 0.767);
+    padding: 5px;
+}
+
+.follow .follow-us .working {
+    margin: 20px;
+    font-family:Arial, sans-serif;
+
+}
+.follow .follow-us .working h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: black;
+}
+.follow .follow-us .working span {
+    display: block;
+    margin: 2px 0;
+    color: gray;
+    font-size: 18px;
+    font-size: 16px;
+}
+.follow .follow-us .working i {
+    color: rgba(50, 3, 180, 0.767);
+    padding: 5px;
+}
+
+.follow .follow-us .social {
+    margin: 20px;
+    font-family:Arial, sans-serif;
+
+}
+.follow .follow-us .social h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: black;
+}
+.follow .follow-us .social span {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+
+
+
+form input, 
+textarea { 
+display: block; 
+width: 100%; 
+padding: 20px 15px; 
+margin: 20px 0; 
+border: none; 
+background-color: #e3e2dd; 
+} 
+form input:focus, 
+textarea:focus { 
+outline: none; 
+} 
+form button { 
+color: #fff;
+background-color: #ff7200; 
+border: none;
+padding: 15px 30px; 
+border-radius: 30px;
+}
+form button:hover {
+    background-color: #e3e2dd; 
+    color: #ff7200; 
+    border: 2px solid #ff7200;
+}
+
+/* sec8 */
+
+
+footer {
+    background-color: rgb(34, 32, 44);
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+    
+}
+
